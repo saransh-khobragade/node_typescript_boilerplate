@@ -1,4 +1,4 @@
-export interface Sample_type {
+export interface SampleType {
     firstName: string;
     lastName: string;
 }
