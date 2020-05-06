@@ -33,7 +33,7 @@ app.use(
 /**
  * API examples routes.
  */
-app.get("/api", apiController.getApi);
+app.get("/", apiController.getApi);
 
 
 export default app;
