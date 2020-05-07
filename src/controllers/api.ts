@@ -2,6 +2,7 @@
 
 import { Response, Request, NextFunction } from "express";
 import { SampleType } from "../types/sample_type";
+import logger from "../util/logger";
 
 
 /**
@@ -11,6 +12,10 @@ import { SampleType } from "../types/sample_type";
 export const getApi = (req: Request, res: Response) => {
 
     const staticTypeObj: SampleType = { "firstName":"ss","lastName":"ss" };
+
+    logger.debug("[getApi]");
+
+    throw new Error("njs")
 
     res.status(200).send({"message":staticTypeObj});
 };

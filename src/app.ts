@@ -3,7 +3,6 @@ import compression from "compression";  // compresses requests
 import bodyParser from "body-parser";
 import lusca from "lusca";
 import flash from "express-flash";
-import path from "path";
 
 // Controllers (route handlers)
 import * as apiController from "./controllers/api";
