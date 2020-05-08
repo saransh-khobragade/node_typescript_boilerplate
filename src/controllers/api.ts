@@ -15,7 +15,5 @@ export const getApi = (req: Request, res: Response) => {
 
     logger.debug("[getApi]");
 
-    throw new Error("njs")
-
     res.status(200).send({"message":staticTypeObj});
 };

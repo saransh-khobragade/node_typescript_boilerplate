@@ -5,10 +5,10 @@ import app from "./app";
 /**
  * Error Handler. Provides full stack - remove for production
  */
-const errorNotification = (err:any,str:any) => {
-    logger.debug("Error:"+err.message) 
-}
-app.use(errorHandler({ log: errorNotification }))
+const errorNotification = (err: any,str: any) => {
+    logger.debug("Error:"+err.message); 
+};
+app.use(errorHandler({ log: errorNotification }));
 
 
 /**
