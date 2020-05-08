@@ -1,4 +1,4 @@
-Benefits of typescripts
+# Benefits of typescripts
 
 1.Interfaces : Strict typed input/output helps in documention and avoid chances of unexpected data flow.
 2.Better Intelligence : With sourcemaps IDE has better visibility for debugging and dependencies helpes in jumps.
