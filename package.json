@@ -32,7 +32,7 @@
         "express": "^4.17.1",
         "express-flash": "0.0.2",
         "lusca": "^1.6.1",
-        "pug": "^2.0.4",
+        "pug": "^3.0.1",
         "winston": "^3.2.1"
     },
     "devDependencies": {
